@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Spinner = () => {
+  console.log('spin')
   return (
     <div>
       <div className='flex h-[84vh] items-center justify-center'>
@@ -21,7 +22,7 @@ const Spinner = () => {
               cy='12'
               r='10'
               stroke='currentColor'
-              stroke-width='4'
+              strokeWidth='4'
             ></circle>
             <path
               className='opacity-75'
